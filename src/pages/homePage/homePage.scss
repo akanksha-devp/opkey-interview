@@ -1,0 +1,20 @@
+.recipe-page{
+  &__header{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom,  #f7f7f7 0%,#e3e3e3 100%);
+  }
+  &__content{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    //.recipe{
+    //  cursor: pointer;
+    //  &:not(:last-child){
+    //    margin-bottom: 1rem;
+    //  }
+    //}
+  }
+}

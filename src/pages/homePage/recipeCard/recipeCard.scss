@@ -1,0 +1,23 @@
+@import "../../../partials/variables";
+
+.recipe-card{
+  border: 1px solid $color-light-gray;
+  width: 200px;
+  min-height: 400px;
+  padding: 4px;
+  background: linear-gradient(to bottom,  #ffffff 60%,#f7f7f7 100%);
+  &__image{
+    width: 100%;
+    overflow: hidden;
+    img{
+      object-fit: contain;
+    }
+    cursor: pointer;
+  }
+  &__label{
+    cursor: pointer;
+    &:hover{
+      color: $color-primary-green
+    }
+  }
+}

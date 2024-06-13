@@ -1,0 +1,10 @@
+@import "../../partials/variables";
+
+.default{
+  width: 25rem;
+  input{
+    width: 100%;
+    padding: 1rem;
+    border-radius: $br-4;
+  }
+}
